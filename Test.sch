@@ -5628,12 +5628,12 @@ Source: www.vishay.com .. rwm.pdf</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="1.27" drill="0">
+<clearance class="0" value="0.381"/>
 </class>
 </classes>
 <parts>
 <part name="U$1" library="ynakano1127" deviceset="MSGEQ7" device=""/>
-<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C1" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1"/>
 <part name="C2" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1"/>
 <part name="C3" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1"/>
@@ -5641,7 +5641,6 @@ Source: www.vishay.com .. rwm.pdf</description>
 <part name="R2" library="resistor-power" library_urn="urn:adsk.eagle:library:344" deviceset="R" device="AC01" package3d_urn="urn:adsk.eagle:package:25124/1"/>
 <part name="R3" library="resistor-power" library_urn="urn:adsk.eagle:library:344" deviceset="R" device="AC01" package3d_urn="urn:adsk.eagle:package:25124/1"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -5656,9 +5655,6 @@ Source: www.vishay.com .. rwm.pdf</description>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="0" y="0" smashed="yes"/>
-<instance part="P+1" gate="1" x="-17.78" y="40.64" smashed="yes">
-<attribute name="VALUE" x="-20.32" y="35.56" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="C1" gate="G$1" x="20.32" y="-15.24" smashed="yes">
 <attribute name="NAME" x="21.844" y="-14.859" size="1.778" layer="95"/>
 <attribute name="VALUE" x="21.844" y="-19.939" size="1.778" layer="96"/>
@@ -5685,9 +5681,6 @@ Source: www.vishay.com .. rwm.pdf</description>
 </instance>
 <instance part="P+2" gate="1" x="30.48" y="25.4" smashed="yes">
 <attribute name="VALUE" x="27.94" y="20.32" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND1" gate="1" x="-22.86" y="-20.32" smashed="yes">
-<attribute name="VALUE" x="-25.4" y="-22.86" size="1.778" layer="96"/>
 </instance>
 <instance part="GND2" gate="1" x="-27.94" y="0" smashed="yes">
 <attribute name="VALUE" x="-30.48" y="-2.54" size="1.778" layer="96"/>
