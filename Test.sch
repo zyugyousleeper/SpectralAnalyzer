@@ -6422,6 +6422,9 @@ Source: www.vishay.com .. rwm.pdf</description>
 <text x="199.39" y="-30.48" size="1.778" layer="91">SIGNAL2</text>
 <text x="-35.56" y="-127" size="1.778" layer="91">Reset</text>
 <text x="-35.56" y="-129.54" size="1.778" layer="91">Strobe</text>
+<text x="-35.56" y="-132.08" size="1.778" layer="91">DC_Out</text>
+<text x="-38.1" y="-149.86" size="1.778" layer="91">SIGNAL1</text>
+<text x="-12.7" y="-172.72" size="1.778" layer="91" rot="R90">SIGNAL2</text>
 </plain>
 <instances>
 <instance part="C1" gate="G$1" x="20.32" y="-15.24" smashed="yes">
