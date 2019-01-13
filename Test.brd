@@ -372,23 +372,23 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" package="C2.5-2" package3d_urn="urn:adsk.eagle:package:5415/1" value="" x="10.16" y="24.13" smashed="yes" rot="R90">
+<element name="C1" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" package="C2.5-2" package3d_urn="urn:adsk.eagle:package:5415/1" value="0.01u" x="10.16" y="24.13" smashed="yes" rot="R90">
 <attribute name="NAME" x="8.636" y="22.479" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="12.954" y="22.479" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C2" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" package="C2.5-2" package3d_urn="urn:adsk.eagle:package:5415/1" value="" x="5.08" y="21.59" smashed="yes" rot="R180">
+<element name="C2" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" package="C2.5-2" package3d_urn="urn:adsk.eagle:package:5415/1" value="0.1u" x="5.08" y="21.59" smashed="yes" rot="R180">
 <attribute name="NAME" x="6.731" y="20.066" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="6.731" y="24.384" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="C3" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" package="C2.5-2" package3d_urn="urn:adsk.eagle:package:5415/1" value="" x="27.94" y="46.99" smashed="yes">
+<element name="C3" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" package="C2.5-2" package3d_urn="urn:adsk.eagle:package:5415/1" value="33p" x="27.94" y="46.99" smashed="yes">
 <attribute name="NAME" x="26.289" y="48.514" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="26.289" y="44.196" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="C4" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" package="C2.5-2" package3d_urn="urn:adsk.eagle:package:5415/1" value="" x="5.08" y="46.99" smashed="yes" rot="R180">
+<element name="C4" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" package="C2.5-2" package3d_urn="urn:adsk.eagle:package:5415/1" value="0.1u" x="5.08" y="46.99" smashed="yes" rot="R180">
 <attribute name="NAME" x="6.731" y="45.466" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="6.731" y="49.784" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="R1" library="resistor-power" library_urn="urn:adsk.eagle:library:344" package="AC01" package3d_urn="urn:adsk.eagle:package:25124/1" value="" x="25.4" y="16.51" smashed="yes">
+<element name="R1" library="resistor-power" library_urn="urn:adsk.eagle:library:344" package="AC01" package3d_urn="urn:adsk.eagle:package:25124/1" value="200k" x="25.4" y="16.51" smashed="yes">
 <attribute name="MF" value="" x="48.26" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="48.26" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="19.685" y="19.05" size="1.778" layer="25" ratio="10"/>
@@ -396,7 +396,7 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="48.26" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="20.955" y="15.875" size="1.778" layer="27" ratio="10"/>
 </element>
-<element name="R2" library="resistor-power" library_urn="urn:adsk.eagle:library:344" package="AC01" package3d_urn="urn:adsk.eagle:package:25124/1" value="" x="25.4" y="24.13" smashed="yes">
+<element name="R2" library="resistor-power" library_urn="urn:adsk.eagle:library:344" package="AC01" package3d_urn="urn:adsk.eagle:package:25124/1" value="200k" x="25.4" y="24.13" smashed="yes">
 <attribute name="MF" value="" x="48.26" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="48.26" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="19.685" y="26.67" size="1.778" layer="25" ratio="10"/>
@@ -404,21 +404,13 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="48.26" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="20.955" y="23.495" size="1.778" layer="27" ratio="10"/>
 </element>
-<element name="R3" library="resistor-power" library_urn="urn:adsk.eagle:library:344" package="AC01" package3d_urn="urn:adsk.eagle:package:25124/1" value="" x="25.4" y="31.75" smashed="yes">
+<element name="R3" library="resistor-power" library_urn="urn:adsk.eagle:library:344" package="AC01" package3d_urn="urn:adsk.eagle:package:25124/1" value="200k" x="25.4" y="31.75" smashed="yes">
 <attribute name="MF" value="" x="48.26" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="48.26" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="19.685" y="34.29" size="1.778" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="unknown" x="48.26" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="48.26" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="20.955" y="31.115" size="1.778" layer="27" ratio="10"/>
-</element>
-<element name="R4" library="resistor-power" library_urn="urn:adsk.eagle:library:344" package="AC01" package3d_urn="urn:adsk.eagle:package:25124/1" value="" x="25.4" y="39.37" smashed="yes">
-<attribute name="MF" value="" x="48.26" y="2.54" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="48.26" y="2.54" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="19.685" y="41.91" size="1.778" layer="25" ratio="10"/>
-<attribute name="OC_FARNELL" value="unknown" x="48.26" y="2.54" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="48.26" y="2.54" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="20.955" y="38.735" size="1.778" layer="27" ratio="10"/>
 </element>
 <element name="U$1" library="SpectralAnalyzer" library_urn="urn:adsk.eagle:library:7692814" package="DIL08" package3d_urn="urn:adsk.eagle:package:7691021/2" value="MSGEQ7" x="7.62" y="-7.62" smashed="yes">
 <attribute name="NAME" x="2.286" y="-10.541" size="1.27" layer="25" ratio="10" rot="R90"/>
@@ -428,10 +420,15 @@ design rules under a new name.</description>
 <signals>
 <signal name="+5V">
 <contactref element="R3" pad="2"/>
-<contactref element="R4" pad="2"/>
 <wire x1="34.671" y1="38.7985" x2="34.671" y2="32.1945" width="1.27" layer="16"/>
 <wire x1="34.671" y1="32.1945" x2="34.3" y2="31.75" width="1.27" layer="16"/>
-<wire x1="34.671" y1="38.7985" x2="34.3" y2="39.37" width="1.27" layer="16"/>
+<contactref element="C4" pad="1"/>
+<contactref element="U$1" pad="1"/>
+<wire x1="9.0805" y1="46.228" x2="6.604" y2="46.228" width="1.27" layer="16"/>
+<wire x1="15.6845" y1="39.624" x2="9.0805" y2="46.228" width="1.27" layer="16"/>
+<wire x1="6.604" y1="46.228" x2="6.35" y2="46.99" width="1.27" layer="16"/>
+<wire x1="15.6845" y1="39.624" x2="34.671" y2="38.7985" width="0" layer="19" extent="16-16"/>
+<wire x1="3.81" y1="-11.43" x2="15.6845" y2="39.624" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="GND">
 <contactref element="C3" pad="2"/>
@@ -506,23 +503,6 @@ design rules under a new name.</description>
 <wire x1="9.906" y1="22.2885" x2="10.16" y2="22.86" width="1.27" layer="16"/>
 <contactref element="U$1" pad="5"/>
 <wire x1="11.43" y1="-3.81" x2="24.765" y2="10.7315" width="0" layer="19" extent="16-16"/>
-</signal>
-<signal name="N$5">
-<contactref element="C4" pad="1"/>
-<contactref element="R4" pad="1"/>
-<wire x1="18.161" y1="4.1275" x2="18.161" y2="3.302" width="1.27" layer="16"/>
-<wire x1="21.463" y1="7.4295" x2="18.161" y2="4.1275" width="1.27" layer="16"/>
-<wire x1="26.416" y1="7.4295" x2="21.463" y2="7.4295" width="1.27" layer="16"/>
-<wire x1="27.2415" y1="8.255" x2="26.416" y2="7.4295" width="1.27" layer="16"/>
-<wire x1="27.2415" y1="28.067" x2="27.2415" y2="8.255" width="1.27" layer="16"/>
-<wire x1="16.51" y1="38.7985" x2="27.2415" y2="28.067" width="1.27" layer="16"/>
-<wire x1="16.51" y1="38.7985" x2="16.5" y2="39.37" width="1.27" layer="16"/>
-<wire x1="9.0805" y1="46.228" x2="6.604" y2="46.228" width="1.27" layer="16"/>
-<wire x1="15.6845" y1="39.624" x2="9.0805" y2="46.228" width="1.27" layer="16"/>
-<wire x1="6.604" y1="46.228" x2="6.35" y2="46.99" width="1.27" layer="16"/>
-<wire x1="15.6845" y1="39.624" x2="16.5" y2="39.37" width="1.27" layer="16"/>
-<contactref element="U$1" pad="1"/>
-<wire x1="3.81" y1="-11.43" x2="18.161" y2="3.302" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$6">
 <polygon width="0.8128" layer="16" isolate="1.016">

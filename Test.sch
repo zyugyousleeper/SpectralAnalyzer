@@ -5644,18 +5644,17 @@ Source: www.vishay.com .. rwm.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="C1" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1"/>
-<part name="C2" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1"/>
-<part name="C3" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1"/>
-<part name="R1" library="resistor-power" library_urn="urn:adsk.eagle:library:344" deviceset="R" device="AC01" package3d_urn="urn:adsk.eagle:package:25124/1"/>
-<part name="R2" library="resistor-power" library_urn="urn:adsk.eagle:library:344" deviceset="R" device="AC01" package3d_urn="urn:adsk.eagle:package:25124/1"/>
-<part name="R3" library="resistor-power" library_urn="urn:adsk.eagle:library:344" deviceset="R" device="AC01" package3d_urn="urn:adsk.eagle:package:25124/1"/>
+<part name="C1" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1" value="0.01u"/>
+<part name="C2" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1" value="0.1u"/>
+<part name="C3" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1" value="33p"/>
+<part name="R1" library="resistor-power" library_urn="urn:adsk.eagle:library:344" deviceset="R" device="AC01" package3d_urn="urn:adsk.eagle:package:25124/1" value="200k"/>
+<part name="R2" library="resistor-power" library_urn="urn:adsk.eagle:library:344" deviceset="R" device="AC01" package3d_urn="urn:adsk.eagle:package:25124/1" value="200k"/>
+<part name="R3" library="resistor-power" library_urn="urn:adsk.eagle:library:344" deviceset="R" device="AC01" package3d_urn="urn:adsk.eagle:package:25124/1" value="200k"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C4" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1"/>
-<part name="R4" library="resistor-power" library_urn="urn:adsk.eagle:library:344" deviceset="R" device="AC01" package3d_urn="urn:adsk.eagle:package:25124/1"/>
+<part name="C4" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1" value="0.1u"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$1" library="SpectralAnalyzer" library_urn="urn:adsk.eagle:library:7692814" deviceset="MSGEQ7" device="" package3d_urn="urn:adsk.eagle:package:7691021/2"/>
@@ -5681,9 +5680,9 @@ Source: www.vishay.com .. rwm.pdf</description>
 <attribute name="NAME" x="24.13" y="-24.0284" size="1.778" layer="95"/>
 <attribute name="VALUE" x="24.13" y="-28.321" size="1.778" layer="96"/>
 </instance>
-<instance part="R2" gate="G$1" x="27.94" y="-30.48" smashed="yes">
-<attribute name="NAME" x="24.13" y="-29.1084" size="1.778" layer="95"/>
-<attribute name="VALUE" x="24.13" y="-33.401" size="1.778" layer="96"/>
+<instance part="R2" gate="G$1" x="27.94" y="-33.02" smashed="yes">
+<attribute name="NAME" x="24.13" y="-31.6484" size="1.778" layer="95"/>
+<attribute name="VALUE" x="24.13" y="-35.941" size="1.778" layer="96"/>
 </instance>
 <instance part="R3" gate="G$1" x="30.48" y="17.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="29.1084" y="13.97" size="1.778" layer="95" rot="R90"/>
@@ -5705,12 +5704,8 @@ Source: www.vishay.com .. rwm.pdf</description>
 <attribute name="NAME" x="-21.336" y="15.621" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-21.336" y="10.541" size="1.778" layer="96"/>
 </instance>
-<instance part="R4" gate="G$1" x="-22.86" y="25.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="-24.2316" y="21.59" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-19.939" y="21.59" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+3" gate="1" x="-22.86" y="33.02" smashed="yes">
-<attribute name="VALUE" x="-25.4" y="27.94" size="1.778" layer="96" rot="R90"/>
+<instance part="P+3" gate="1" x="-22.86" y="27.94" smashed="yes">
+<attribute name="VALUE" x="-25.4" y="22.86" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND5" gate="1" x="-22.86" y="7.62" smashed="yes">
 <attribute name="VALUE" x="-25.4" y="5.08" size="1.778" layer="96"/>
@@ -5726,8 +5721,13 @@ Source: www.vishay.com .. rwm.pdf</description>
 <pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 <segment>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="-22.86" y1="25.4" x2="-22.86" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="7.62" x2="-15.24" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="17.78" x2="-22.86" y2="17.78" width="0.1524" layer="91"/>
+<junction x="-22.86" y="17.78"/>
+<pinref part="U$1" gate="G$1" pin="VDD"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
-<pinref part="R4" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -5773,8 +5773,8 @@ Source: www.vishay.com .. rwm.pdf</description>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="-30.48" x2="20.32" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="-30.48" x2="20.32" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="-33.02" x2="20.32" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="-33.02" x2="20.32" y2="-25.4" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="-25.4" x2="20.32" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="-25.4" x2="20.32" y2="-25.4" width="0.1524" layer="91"/>
@@ -5787,17 +5787,6 @@ Source: www.vishay.com .. rwm.pdf</description>
 <wire x1="15.24" y1="-7.62" x2="20.32" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="-7.62" x2="20.32" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="IN"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="C4" gate="G$1" pin="1"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="-22.86" y1="20.32" x2="-22.86" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="7.62" x2="-15.24" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="17.78" x2="-22.86" y2="17.78" width="0.1524" layer="91"/>
-<junction x="-22.86" y="17.78"/>
-<pinref part="U$1" gate="G$1" pin="VDD"/>
 </segment>
 </net>
 </nets>
