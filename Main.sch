@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1126,9 +1126,9 @@ Source: 2SC3212.pdf</description>
 <text x="182.88" y="55.88" size="1.778" layer="91">CH5</text>
 <text x="30.48" y="5.08" size="1.778" layer="91">CH1</text>
 <text x="111.76" y="5.08" size="1.778" layer="91">CH2</text>
-<text x="30.48" y="-48.26" size="1.778" layer="91">CH1</text>
-<text x="111.76" y="-48.26" size="1.778" layer="91">CH2</text>
-<text x="30.48" y="-99.06" size="1.778" layer="91">CH1</text>
+<text x="30.48" y="-48.26" size="1.778" layer="91">CH3</text>
+<text x="111.76" y="-48.26" size="1.778" layer="91">CH4</text>
+<text x="30.48" y="-99.06" size="1.778" layer="91">CH5</text>
 </plain>
 <instances>
 <instance part="JP1" gate="A" x="127" y="58.42" smashed="yes" rot="R180">
