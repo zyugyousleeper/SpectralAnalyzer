@@ -1099,7 +1099,7 @@ Source: 2SC3212.pdf</description>
 <part name="P+13" library="SpectralAnalyzer" library_urn="urn:adsk.eagle:library:7692814" deviceset="VCC" device="" value="5V"/>
 <part name="GND16" library="SpectralAnalyzer" library_urn="urn:adsk.eagle:library:7692814" deviceset="GND" device=""/>
 <part name="IC5" library="SpectralAnalyzer" library_urn="urn:adsk.eagle:library:7692814" deviceset="LM358N" device="" package3d_urn="urn:adsk.eagle:package:7691021/3"/>
-<part name="P+12" library="SpectralAnalyzer" library_urn="urn:adsk.eagle:library:7692814" deviceset="VCC" device=""/>
+<part name="P+12" library="SpectralAnalyzer" library_urn="urn:adsk.eagle:library:7692814" deviceset="VCC" device="" value="5V"/>
 <part name="GND15" library="SpectralAnalyzer" library_urn="urn:adsk.eagle:library:7692814" deviceset="GND" device=""/>
 <part name="X2" library="SpectralAnalyzer" library_urn="urn:adsk.eagle:library:7692814" deviceset="3.3MM_AUDIO_JACK" device="" package3d_urn="urn:adsk.eagle:package:8555/1"/>
 <part name="X1" library="SpectralAnalyzer" library_urn="urn:adsk.eagle:library:7692814" deviceset="3.3MM_AUDIO_JACK" device="" package3d_urn="urn:adsk.eagle:package:8555/1"/>
